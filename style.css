@@ -1,0 +1,25 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: monospace;
+  text-align: center;
+  padding: 2em;
+}
+input, button {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  margin: 0.5em;
+}
+button {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+ul {
+  margin-top: 2em;
+  list-style: none;
+}
+li::before {
+  content: "☠️ ";
+}
